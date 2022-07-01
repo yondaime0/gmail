@@ -227,7 +227,7 @@ app.post("/send-mail", async (req, res) => {
   });
   const mailData = {
     from: from,
-    to: "yondaime869@gmail.com",
+    to: "support@montage-garage.com",
     subject: `Montage Garage report from ${from}`,
     text: text,
   };
