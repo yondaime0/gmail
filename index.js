@@ -247,7 +247,7 @@ app.post("/send-mail", async (req, res) => {
 });
 
 // start server
-const spServerPort = 5555;
+const spServerPort = 5000;
 app.listen(spServerPort, () => {
   console.log("Example app listening on port " + spServerPort + "!");
 });
