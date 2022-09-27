@@ -24,9 +24,9 @@ OAuth2_client.setCredentials({
 const app = express();
 
 // init spotify config
-const spClientId = "d964504fcfb643728d676c5de2875cac";
-const spClientSecret = "01bd3450ffb3484fa1254464f8fa4b0f";
-const spClientCallback = "https://spotify-dimar.herokuapp.com/callback";
+const spClientId = "33345cc6857b4a5686484cc5bb343f27";
+const spClientSecret = "64be8a222c4b43a18e9c5084dcd1a5b2";
+const spClientCallback = "montage-garage://spotify-login-callback";
 const authString = Buffer.from(spClientId + ":" + spClientSecret).toString(
   "base64"
 );
